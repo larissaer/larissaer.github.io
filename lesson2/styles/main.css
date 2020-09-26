@@ -39,10 +39,10 @@ img {
     padding-top: 10px;
 }
 
-.wrapper {
+main {
     display: grid;
     grid-template-columns: 1fr;
-}
+  }
 
 div h3 {
     background-color: #cce7e8;
@@ -50,28 +50,15 @@ div h3 {
     padding: 20 20 20 5;
 
 }
-
-@media only screen and (min-width: 37.5em) {
-    .wrapper{
-        grid-template-columns: 1fr 1fr;
+@media only screen and (min-width: 37.5em){
+    main {
+      grid-template-columns: 1fr 1fr;
     }
+  }
 
-
-    #column-3 {
-        grid-column: span 2;
+  @media only screen and (min-width: 60em){
+    main {
+      grid-template-columns: 1fr 1fr 1fr;
     }
-
-}
-
-@media only screen and (min-width: 60em) {
-    .wrapper {
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: darkgoldenrod;
-    }
+  }
     
-
-    #column-3 {
-        grid-column: span 1;
-    }
-
-}
