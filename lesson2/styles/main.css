@@ -3,6 +3,15 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+  padding: 8px;
+
+}
+
+h3{
+  text-align: center;
+}
+
 header,
 footer {
     background-color: #cce7e8;
@@ -30,12 +39,21 @@ div {
 }
 
 a {
-    color: black;
-    font-size: 10px;
+    color: #1b8f8b;
+    font-size: 15px;
+}
+
+a:hover {
+  color: #cce7e8;
+}
+
+a:visited {
+  color: #18bab5;
 }
 
 img {
-    width: 200px;
+    width: 210px;
+    height: 250px;
     padding-top: 10px;
 }
 
@@ -47,7 +65,8 @@ main {
 div h3 {
     background-color: #cce7e8;
     margin: 0;
-    padding: 20 20 20 5;
+    padding: 8%;
+    border-radius: 5px;
 
 }
 @media only screen and (min-width: 37.5em){
