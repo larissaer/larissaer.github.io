@@ -1,0 +1,48 @@
+nav {
+  margin: 0 auto;
+  padding: 1em 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 100%;
+  background-color: #d3d0cb;
+  font-family: "Piazzolla", serif;
+}
+
+body{
+  max-width: 990px;
+  margin: 0 auto;
+  background-color: #EEE;
+}
+
+body p{
+  font-family: 'Roboto', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Piazzolla", serif;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h3 {
+  color: #4A8FE8;
+}
+
+#piazzollasample p {
+  font-family: 'Piazzolla', serif;
+  color: #E7BB41;
+}
+
+#robotosample p {
+  font-family: 'Roboto', serif;
+  color: #E7BB41;
+}
