@@ -170,7 +170,6 @@ nav {
 	text-align: center;
 }
 
-
 footer {
   padding: 2px 6px;
   background-color: #4A8FE8;
@@ -275,7 +274,7 @@ footer {
 		overflow-y: auto;
 		padding-bottom: 20px;
 	}
-	.contactimg {
+	.contactmap {
 		display: block;
 		float: left;
 		max-width: 50%;
