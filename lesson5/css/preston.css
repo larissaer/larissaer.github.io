@@ -149,24 +149,11 @@ nav {
   padding: 15px;
   margin-bottom: -1em;
 }
-/*
-.article {
-	padding: 40px;
-	background-color: #D3D0CB;
-	border: black solid 1.5px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-.article img {
-	display: block;
-	margin: 0 auto;
-  width: 100%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}*/
 
 .article{
   padding:40px;
+  border: 1px solid black;
+  margin-top: -1em;
 }
 .articleimg {
   max-width: 100%;
@@ -181,10 +168,6 @@ nav {
 	margin-left: 20px;
 	margin-right: 20px;
 	text-align: center;
-}
-
-.contact img {
-
 }
 
 
@@ -277,7 +260,8 @@ footer {
   .article{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      
+      border: 1px solid black;
+      margin-top: 5em;
   }
   .articlewritting{
       grid-column: 1/3;
@@ -287,23 +271,16 @@ footer {
       margin-left:40px;
   }
 
-.contact {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 480px) minmax(0, 480px) 1fr;
-  margin-top: 100px;
-  padding-top: 150px;
+  .contact {
+		overflow-y: auto;
+		padding-bottom: 20px;
+	}
+	.contactimg {
+		display: block;
+		float: left;
+		max-width: 50%;
   }
-.contactimg{
-   grid-column: 2/3;
-   grid-row: 1/2;
-   margin-bottom: 100px;
-   margin-left:4px;
-   max-width: 75%;
-}
-.contact-info{
-   grid-column: 3/4;
-   margin-left: 50px;
-}
+  
  footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
