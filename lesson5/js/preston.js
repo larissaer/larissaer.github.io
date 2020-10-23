@@ -1,4 +1,5 @@
 window.addEventListener("load", (event) => {
+    //date
     const lastUpdate = document.querySelector("#lastupdate");
     lastUpdate.textContent = document.lastModified;
 
