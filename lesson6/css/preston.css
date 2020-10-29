@@ -90,7 +90,7 @@ nav {
   text-align: center;
 }
 
-.heroBanner {
+/*.heroBanner {
 	padding: 0;
 	position: relative;
   margin-bottom: 1.7em;
@@ -99,6 +99,16 @@ nav {
 
 .heroBanner img {
 	width: 100%;
+}*/
+
+.heroBanner img {
+  max-width: 100%;
+}
+
+.heroBanner {
+padding: 0;
+position: relative;
+margin-bottom: 1.7em;
 }
 
 .weatherSummary {
@@ -116,7 +126,7 @@ nav {
 	border-bottom: white solid 2px;
 }
 
-#info {
+#label {
 	text-align: right;
 	padding-right: 4px;
 }
