@@ -1,38 +1,57 @@
-tablebuildtable,
-th,
-td,
-tr {
-    border: 1px solid grey;
-    border-collapse: collapse;
-}
+  body {
+      font-family: "Ubuntu", sans-serif;
+  }
 
-caption {
-    background-color: #7fb9c2;
-    max-width: 100%;
-    padding: 0.2em;
-}
+  caption {
+      background-color: #7fb9c2;
+      max-width: 100%;
+      font-size: 1.6em;
+      padding: 1em;
+  }
 
-th {
-    color: white;
-    background-color: #628ca6;
-    padding: 0.2em;
-    font-family: Ubuntu;
-}
+  table {
+      border-collapse: collapse;
+      border: 2px solid rgb(200, 200, 200);
+      box-shadow: 5px 5px 10px #618ca5;
+      margin: auto;
+  }
 
-td {
-    font-family: sans-serif;
-    text-align: center;
-    background-color: #e7f0ed;
-    padding: 0.2em;
-}
+  td,
+  th {
+      border: 1px solid rgb(190, 190, 190);
+      padding: 10px 20px;
+  }
 
-.turquoise td {
-    background-color: #e7ffed;
-    padding: 0.2em;
-}
+  tr th {
+      background-color: #618ca5;
+      color: white;
+  }
 
-tfoot td {
-    background-color: #7fb9c2;
-    padding: 0.2em;
-    font-size: 0.7em;
-}
+  thead tr th {
+      background-color: #7fbac2;
+      padding: 0;
+      color: black;
+  }
+
+  td {
+      text-align: center;
+  }
+
+  tr td {
+
+      background-color: rgb(245, 245, 245);
+  }
+
+  tr:nth-child(odd) td {
+      background-color: #e5ffeb;
+  }
+
+  #different {
+      color: white;
+      background-color: #618ca5;
+  }
+
+  tr td[colspan="3"] {
+      background-color: #7fbac2;
+      font-size: 12px;
+  }
