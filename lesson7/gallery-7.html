@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD230 Week 8 assignment in Brother Hayes class at BYUI">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>WDD 230 | Lesson 8</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/preston.css">
+    <script src="js/preston.js"></script>
+    <script src="js/lazyload.js"></script>
+</head>
+
+<body>
+    <div id="topBanner" class="banner" style="display: none;">
+        <p>
+            Presten Pancake in the Park! 9:00am  Saturday at the city park pavilion.
+        </p>
+    </div>
+    <header>
+        <div class="icon">
+            <img class="iconimage" src="images/icon.png" alt="Weather Icon">
+        </div>
+        <section class="topheading">
+            <h1>Weather Today</h1>
+            <div class="subtitle">Updates on the weather for you today</div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li> <a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Preston</a></li>
+            <li> <a href="#">Soda Springs</a></li>
+            <li> <a href="#">Fish Haven</a></li>
+            <li> <a href="#">Storm Center</a></li>
+            <li> <a href="#" id="wayfinding">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+<h3>Weather Gallery</h3>
+<div id="gallery-images">
+    <picture>
+        <img src="images/gallery1.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of rainy clouds</div>
+    </picture>
+    <picture>
+        <img src="images/gallery2.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of a snowy day</div>
+    </picture>
+    <picture>
+        <img src="images/gallery3.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of a foggy day</div>
+    </picture>
+    <picture>
+        <img src="images/gallery4.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of rainy day</div>
+    </picture>
+    <picture>
+        <img src="images/gallery5.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of a rainbow</div>
+    </picture>
+    <picture>
+        <img src="images/gallery6.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of a sunny day</div>
+    </picture>
+    <picture>
+        <img src="images/gallery7.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of lightening</div>
+    </picture>
+    <picture>
+        <img src="images/gallery8.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of lightening in the city</div>
+    </picture>
+    <picture>
+        <img src="images/gallery9.jpg" loading="lazy" alt="Weather Picture">
+        <div>Picture of sun in the forest</div>
+    </picture>
+</div>
+
+    </main>
+
+    <footer>
+        <p class="legal">&copy;<span id="year"></span> | Larissa Rodrigues | Idaho | Weather Today</p>
+        <p class="update">Date: <span id="lastupdate"></span></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({
+        google: {
+          families: [
+             'Roboto' , 'Piazzolla'
+          ]
+        }
+      });</script>
+</body>
