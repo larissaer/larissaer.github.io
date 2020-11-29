@@ -13,6 +13,7 @@
         rel="stylesheet">  --> 
     <link rel="stylesheet" href="css/preston.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="js/general.js"></script>
     <script src="js/preston.js"></script>
     <script src="js/windchill.js"></script>
 </head>
@@ -36,12 +37,12 @@
     <nav>
         <ul class="navigation">
             <li> <a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#" id="wayfinding">Preston</a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="preston-10.html" id="wayfinding">Preston</a></li>
             <li> <a href="#">Soda Springs</a></li>
             <li> <a href="#">Fish Haven</a></li>
-            <li> <a href="#">Storm Center</a></li>
-            <li> <a href="#">Gallery</a></li>
+            <li> <a href="stormcenter.html">Storm Center</a></li>
+            <li> <a href="gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -60,48 +61,61 @@
                 <h3>Weather Summary</h3>
                 <div id="info-question">
                     Currently:<br>
+                    Temperature:<br>
                     High:<br>
+                    Low:<br>
                     Wind Chill:<br>
                     Humidity:<br>
                     Wind Speed:<br>
                 </div>
 
-                <div id="infoa-nswer">
-                    Sunny<br>
-                    <span id="currentTemperature">50</span>℉<br>
-                    <span id="windChill">48℉</span><br>
-                    69%<br>
-                    <span id="windSpeed">4</span> mph<br>
+                <div id="info-answer">
+                    <span id = "currCond">Sunny</span><br>
+                        <span id = "currentTemp">50</span>&#8457;<br>
+                        <span id = "highTemp"></span>&#8457;<br>
+                        <span id = "lowTemp"></span>&#8457;<br>
+                        <span id = "windChill"></span><br>
+                        <span id = "humidity"></span>%<br>
+                        <span id = "windSpeed">4</span> mph<br>
                 </div>
 
             </div>
             <div class="forecast">
                 <h3>5 Day Forecast</h3>
                 <div class="forecastTable">
-                    <p>Tue</p>
-                    <p>Wed</p>
-                    <p>Thur</p>
-                    <p>Fri</p>
-                    <p>Sat</p>
-                    <p><i class='fas fa-sun'></i><br>60 ℉</p>
-                    <p><i class='fas fa-cloud-sun'></i><br>54 ℉</p>
-                    <p><i class='fas fa-cloud-sun-rain'></i><br>50 ℉</p>
-                    <p><i class='fas fa-cloud-sun-rain'></i><br>48 ℉</p>
-                    <p><i class='fas fa-cloud-sun-rain'></i><br>47 ℉</p>
-
+                    <p id = "label1">Mon</p>
+                    <p id = "label2">Tue</p>
+                    <p id = "label3">Wed</p>
+                    <p id = "label4">Thu</p>
+                    <p id = "label5">Fri</p>
+                    <p>
+                        <img id = "img1" src = "img/partly-sunny.png" alt = "Partly Sunny" />
+                        <br><span id = "output1">74</span> &#8457;
+                    </p>
+                    <p>
+                        <img id = "img2" src = "img/partly-sunny.png" alt = "Partly Sunny" />
+                        <br><span id = "output2">74</span> &#8457;
+                    </p>
+                    <p>
+                        <img id = "img3" src = "img/partly-sunny.png" alt = "Partly Sunny" />
+                        <br><span id = "output3">74</span> &#8457;
+                    </p>
+                    <p>
+                        <img id = "img4" src = "img/partly-sunny.png" alt = "Partly Sunny" />
+                        <br><span id = "output4">74</span> &#8457;
+                    </p>
+                    <p>
+                        <img id = "img5" src = "img/partly-sunny.png" alt = "Partly Sunny" />
+                        <br><span id = "output5">74</span> &#8457;
+                    </p>
                 </div>
-
-
             </div>
 
 
             <div class="article">
                 <section class="articlewritting">
-                    <h3>Article Header</h3>
-                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni a asperiores recusandae! Quis,
-                        in saepe quaerat ratione iure aspernatur possimus voluptatibus! Eum aut eaque, unde placeat
-                        saepe nobis eos consectetur.ne iure aspernatur possimus voluptatibus! Eum aut eaque, unde
-                        placeat saepe nobis eos consectetur.um </p>
+                    <h3>Rain and Driving</h3>
+                    <p> Rain does increase poor visibility, which is a common cause of roadway accidents. Outside the vehicle, water splashing up can prevent drivers from seeing clearly the cars in front of them or even the road. Heavy rainfall decrease visibility even more. </p>
                 </section>
                 <img class="articleimg" src="images/article.jpg" alt="Article Image">
             </div>

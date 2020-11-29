@@ -1,6 +1,6 @@
 window.addEventListener('load', (event)=>{
     var text;
-    var temp = parseFloat(document.getElementById("currentTemperature").textContent);
+    var temp = parseFloat(document.getElementById("currentTemp").textContent);
     var speed = parseFloat(document.getElementById("windSpeed").textContent);
 
     if (speed >= 3 && temp <= 50){

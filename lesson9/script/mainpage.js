@@ -17,7 +17,6 @@ window.addEventListener("load", (event) => {
   }, false);
 
 
-
   //sections
 
   const URL = 'https://byui-cit230.github.io/weather/data/towndata.json';
@@ -29,6 +28,7 @@ window.addEventListener("load", (event) => {
     .then(function (jsonObject) {
       console.table(jsonObject);
       const towns = jsonObject['towns'];
+
 
       //Preston
       let preston = document.createElement('section');
