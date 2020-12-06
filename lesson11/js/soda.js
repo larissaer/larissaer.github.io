@@ -1,7 +1,7 @@
 window.addEventListener('load', (event)=>{
     // The urls for the weather api.
-    const apiurl = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=f35b728b9784b1eaf04baa7a3e381718&units=imperial";
-    const apiforcurl = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=f35b728b9784b1eaf04baa7a3e381718";
+    const apiurl = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=ac70fcbc6eb00a32d2727731bf319ff0&units=imperial";
+    const apiforcurl = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=ac70fcbc6eb00a32d2727731bf319ff0";
 
     // Get the data for current weather in the form of a JSON file
     fetch(apiurl)
@@ -74,7 +74,24 @@ window.addEventListener('load', (event)=>{
         }
     });
 
+    const events = "https://byui-cit230.github.io/weather/data/towndata.json";
 
-    });
+    fetch(events)
+        .then(function (response) {
+            return response.json();
+        })
+        .then((jsObject) => {
+            console.log(jsObject)
+            const townevents = jsObject["towns"];
+            for (let i = 0; i < townevents.length; i++) {
+                if (townevents[i].name == "Soda Springs") {
+                    for (let j = 0; j < townevents[i].events.length; j++) {
+                        let newevent = document.createElement("p");
+                        newevent.textContent = townevents[i].events[j];
+                        document.querySelector("#eventList").appendChild(newevent);
+                    }
+                }
+            }
 
-
+        })
+})

@@ -105,6 +105,8 @@ img {
   margin: 0 auto;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.63);
   border-radius: 5px;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 #towns section h1 {
   color: #4A8FE8;
@@ -120,6 +122,10 @@ img {
   margin: 0 30px;
   margin-top: -2px;
   color: #4A8FE8;
+}
+
+#towns a {
+  text-decoration: none;
 }
 
 #towns section img {

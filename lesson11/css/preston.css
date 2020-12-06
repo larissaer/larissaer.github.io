@@ -86,7 +86,7 @@ nav {
 
 #location {
   font-family: 'piazzolla', sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -137,8 +137,9 @@ margin-bottom: 1.7em;
 }
 
 .forecast h3 {
-  font-size: 2em;
-  margin-top: 3em;
+  font-size: 1.5em;
+  margin-top: 2.5em;
+  margin-bottom: -.5em;
 }
 
 .forecastTable {
@@ -162,11 +163,39 @@ margin-bottom: 1.7em;
 
 .article{
   padding:40px;
-  border: 1px solid black;
+  border: 1px double black;
   margin-top: -1em;
 }
+
 .articleimg {
   max-width: 100%;
+}
+
+#event-title { 
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 2em;
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  margin-top: 3em;
+  background-color: rgb(40, 131, 81);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+#eventList {
+  text-align: center;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid black;
+  color: black;
+  font-size: 1.5em;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 2px 2px 2px black;
 }
 
 .contact {
