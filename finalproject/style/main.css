@@ -151,6 +151,7 @@ p { color: #202121;
   grid-column: 1 / 7;
 }
 
+
 /*
 
 .home-headline-1 {
@@ -196,6 +197,18 @@ p { color: #202121;
   grid-row: 4 / 5;
 }*/
 
+#container {
+  text-align: center;
+color: #022030;
+background-color: #F4F7F6;
+border-radius: 10px 10px 10px 10px;
+display: block;
+margin: auto;
+width: 50%;
+height: auto;
+padding-top: 2em;
+padding-bottom: 5em;
+}
 
 footer {
   width: 100%;

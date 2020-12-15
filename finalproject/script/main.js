@@ -18,7 +18,7 @@ window.addEventListener("load", (event) => {
         mainnav.classList.toggle('responsive')
     }, false);
 
-    fetch('/script/template.json')
+    fetch('https://larissaer.github.io/finalproject/script/template.json')
     .then( result => {
             return result.json();
         })
