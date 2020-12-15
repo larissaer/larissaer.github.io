@@ -1,0 +1,76 @@
+{
+    "name": {
+        "Brasilia": {
+            "address": "GA/Norte Quadra 612",
+            "city": "Brasília",
+            "state": "Distrito Federal",
+            "telephone": "(55) 19–3397-2023",
+            "services": {
+                "cafeteria": "No cafeteria available",
+                "clothes": "Clothing rental available",
+                "housing": "No patron housing for patrons",
+                "distribution": "Distribution center nearby"
+            },
+            "image": "brasilia.jpg",
+            "email": "templodebrasilia@lds.org",
+            "ordinance": "Currently closed for ordinances ",
+            "history": "23 August 2002 Announced </br> 10 March 2005 Ground breaking </br> 1 June 2008 Dedicated",
+            "session": "Currently closed for sessions",
+            "templeClosure": "Currently closed"
+        },
+        "Curitiba": {
+            "address": "Rua Deputado Heitor Alencar Furtado, 3641 Mossunguê 81200-110",
+            "city": "Curitiba",
+            "state": "Paraná",
+            "telephone": "(55) 41-3204-6650",
+            "services": {
+                "cafeteria": "No cafeteria available",
+                "clothes": "No clothing rental available",
+                "housing": "No patron housing available",
+                "distribution": "Distribution center nearby"
+            },
+            "image": "curitiba.jpg",
+            "email": "templodecuritiba@lds.org",
+            "ordinance": "Currently closed for ordinances",
+            "history": "12 December 2003 Announced </br> 30 July 2005 Ground breaking </br> 10 February 2008 Dedicated",
+            "session": "Currently closed for sessions",
+            "templeClosure": "Currently closed"
+        },
+        "Campinas": {
+            "address": "Rua James Esdras Faust, 400 Barrio Notre Dame CEP 13092-820",
+            "city": "Campinas",
+            "state": "São Paulo",
+            "telephone": "(55) 19-2102-5800",
+            "services": {
+                "cafeteria": "Cafeteria available",
+                "clothes": "Clothing rental available",
+                "housing": "Patron housing available",
+                "distribution": "Distribution center nearby"
+            },
+            "image": "campinas.jpg",
+            "email": "templodecampinas@lds.org",
+            "ordinance": "Currently closed for ordinances",
+            "history": "3 April 1997 Announced </br> 1 May 1998 Ground breaking </br> 17 May 2002 Dedicated ",
+            "session": "Currently closed for sessions",
+            "templeClosure": "Currently closed"
+        },
+        "Manaus": {
+            "address": "Avenida Coronel Texeira #3162 Ponta Negra 69037-000",
+            "city": "Manaus",
+            "state": "Amazonas",
+            "telephone": "(55) 92-3212-7270",
+            "services": {
+                "cafeteria": "No cafeteria available",
+                "clothes": "No clothing rental available",
+                "housing": "No patron housing available",
+                "distribution": "Distribution center nearby"
+            },
+            "image": "manaus.jpg",
+            "email": "templodemanaus@lds.org",
+            "ordinance": "Currently closed for ordinances",
+            "history": "23 May 2007 Announced </br> 20 June 2008 Ground breaking </br> 10 June 2012 Dedicated",
+            "session": "Currently closed for sessions",
+            "templeClosure": "Currently closed"
+        }
+    }
+}
