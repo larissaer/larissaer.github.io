@@ -9,7 +9,7 @@ window.addEventListener("load", (event) => {
         mainnav.classList.toggle('responsive')
     }, false);
 
-    fetch('https://larissaer.github.io/finalproject/script/template.json')
+    fetch('/script/template.json')
     .then( result => {
             return result.json();
         })
@@ -73,8 +73,9 @@ window.addEventListener("load", (event) => {
                 article.appendChild(history);
                 article.appendChild(session);
                 article.appendChild(templeClosure);
-
-                document.querySelector('#container').appendChild(article);
+                const container = document.querySelector('#container');
+                if(container)
+                    container.appendChild(article);
             }
 
     });
