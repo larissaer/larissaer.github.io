@@ -1,13 +1,4 @@
 window.addEventListener("load", (event) => {
-    //date
-    const lastUpdate = document.querySelector("#lastupdate");
-    if(lastUpdate)
-        lastUpdate.textContent = document.lastModified;
-
-    const year = document.querySelector("#year");
-    if(year)
-        year.textContent = new Date().getFullYear();
-
     // toggle on menu
 
     const hambutton = document.querySelector('.ham');
