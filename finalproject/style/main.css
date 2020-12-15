@@ -197,9 +197,10 @@ p { color: #202121;
   grid-row: 4 / 5;
 }*/
 
+/*Temples page*/
 #container {
-  text-align: center;
-color: #022030;
+text-align: center;
+color: #202121;
 background-color: #F4F7F6;
 border-radius: 10px 10px 10px 10px;
 display: block;
@@ -208,6 +209,39 @@ width: 50%;
 height: auto;
 padding-top: 2em;
 padding-bottom: 5em;
+}
+
+/* Reservation Page*/
+
+form{
+  margin: 10px auto;
+  flex-direction: column;
+  width: 80%;
+  max-width: 600px;
+  min-width: 230px;
+  font-family: "Roboto";
+}
+
+input{
+  padding: 5px;
+  border: 1.5px solid #69B5B5;
+  border-radius: 6px 6px;
+  font-size: small;
+  line-height: 2.6;
+}
+
+#info input{
+  width: 100%;
+  min-width: 200px;
+}
+
+#info label{
+  display: none;
+}
+
+label, button{
+  font-size: 1em;
+  color: #393E41;
 }
 
 footer {

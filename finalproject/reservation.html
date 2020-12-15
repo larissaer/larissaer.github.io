@@ -34,6 +34,65 @@
     </header>
 
     <main>
+      <form action="thanks.html">
+        <h2>Make your reservation here!</h2>
+        <h3>Personal Information</h3>
+        <div id="info">
+
+            <label for="fName">Full Name</label>
+            <input type="text" required="" id="fName" name="fName" placeholder="Full Name" pattern="[A-Za-z]{5,}">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" minlength="5" placeholder="Email Address">
+
+            <label for="telnum">Phone Number</label>
+            <input type="tel" required="" id="telnum" name="phonenumber" minlength="5" placeholder="Phone Number">
+
+            <label for="home">Home State/Country</label>
+            <input type="text" required="" id="home" minlength="2" name="zip" placeholder="Home State/Country">
+        </div>
+
+        <h3>Room Information</h3>
+
+        <label for="sd">Stay Date</label>
+        <input type="date" required="" name="date" id="sd">
+
+        <label for="st">Room Type</label>
+        <input type="text" name="roomtype" required="" id="st" list="stl">
+
+        <datalist id="stl">
+            <option>Suite</option>
+            <option>Family Room</option>
+            <option>Single Room</option>
+            <option>Executive Suite</option>
+            <option>Honeymoon Suite</option>
+        </datalist>
+
+
+        <label for="guest">Number of Guests</label>
+        <select id="guests" required="" name="guests">
+            <option disabled="" selected="" value="disabled">Select Number of Guests</option>
+            <option value="one">One</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+            <option value="four">Four or more</option>
+        </select>
+
+
+        <label for="region">Location</label>
+        <select id="region" required="" name="region">
+            <option disabled="" selected="" value="disabled">Select Location</option>
+            <option value="preston">Brasilia</option>
+            <option value="sodaprings">Curitiba</option>
+            <option value="fishhaven">Campinas</option>
+            <option value="fishhaven">Manaus</option>
+        </select>
+
+        <textarea name="addcomments" placeholder="Special Accomodation / Comments" rows="6"></textarea>
+
+       <button type="submit" form="stormcenter" name="submit" value="button">Submit</button>
+    </form>
+
 
     </main>
 
